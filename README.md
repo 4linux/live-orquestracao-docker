@@ -4,24 +4,23 @@
 
 1 - Conta na GCP 
 
-2 - Uma Instância 
+2 - Uma Instância Ubunut 20.04
 
-3 - Novo Disco
+3 - Novo Disco na GCP
 
 4 - Filestore para o NFS
 
 
 ## Ementa da Live
 
-- Introdução ao Docker
-- Componentes
 - Criar conta gratuita na GCP
 - Criar 1 instância na GCP
+- Introdução ao Docker
+- Componentes
 - Instalar o Docker
 - Comandos basicos
-- Novo Disco anexado a instância (banco do MySQL)
-- Filestore (servidor NFS usado pelo Wordpress)
-- Docker instalado na Instância
+- Novo Disco anexado a instância para o banco do MySQL
+- Filestore para o servidor NFS usado pelo Wordpress
 - Instalar os plugins 
 - Criar os volumes
 - Criar um cluster Swarm
