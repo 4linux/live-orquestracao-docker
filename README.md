@@ -10,8 +10,8 @@
 - IaC é vida! 
 
 - **Certificações**
-  - LPIC-2
-  - CKA
+  - GitLab Associate
+  - Scrum Essentials
   - DevOps Essentials
 
 ## Preparando o lab da Live
