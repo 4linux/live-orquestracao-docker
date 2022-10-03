@@ -7,7 +7,7 @@
 
 - Consultor de TI em Software Livre
 - Mais de 6 anos de experiência
-- Iac é vida! 
+- IaC é vida! 
 
 - **Certificações**
   - LPIC-2
