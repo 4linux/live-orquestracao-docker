@@ -1,5 +1,19 @@
 # Live: Orquestrando aplicações com Docker Swarm
 
+
+## whaomi
+
+**Emerson Silva**
+
+- Consultor de TI em Software Livre
+- Mais de 6 anos de experiência
+- Iac é vida! 
+
+- **Certificações**
+  - LPIC-2
+  - CKA
+  - DevOps Essentials
+
 ## Preparando o lab da Live
 
 1 - Conta na GCP 
