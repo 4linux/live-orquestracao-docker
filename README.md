@@ -3,8 +3,11 @@
 ## Preparando o lab da Live
 
 1 - Conta na GCP 
+
 2 - Uma Instância 
+
 3 - Novo Disco
+
 4 - Filestore para o NFS
 
 
