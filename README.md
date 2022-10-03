@@ -14,6 +14,8 @@
   - Scrum Essentials
   - DevOps Essentials
 
+Mais sobre mim: [https://linktr.ee/silvemerson](https://linktr.ee/silvemerson)
+
 ## Preparando o lab da Live
 
 1 - Conta na GCP 
