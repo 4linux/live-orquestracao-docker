@@ -1,0 +1,39 @@
+version: '3.7'
+
+services:
+  database:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: '!123Abc'
+      MYSQL_DATABASE: php
+      MYSQL_USER: php
+    ports:
+      - "3306:3306"
+    deploy:
+      mode: replicated
+      replicas: 1
+       restart_policy:
+        condition: on-failure
+        delay: 10s
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+    volumes:
+      - "mysql-data:/var/lib/mysql"
+
+   wordpress:
+    image: "wordpress:latest"
+    environment:
+      DB_HOST: IP_INTERNO_DOCKER_MANAGER
+      DB_PORT: 3306
+      DB_USER: php
+      DB_NAME: php
+    deploy:
+      mode: replicated
+      replicas: 1
+    ports:
+      - "80:80"
+    volumes:
+      - "app-data:/app" 
