@@ -13,8 +13,13 @@ Vá em editar VM > Discos Adicionais > selecione o disco  e aperte em salvar > P
 
 
 2 - Acessar a instância
+
 3 - Usar o comando sudo fdisk -l para identificar o disco
+
 4 - Aplicar o sistema de arquivos no disco: sudo mkfs.xfs /dev/sdb
+
 5 - Criar o ponto de montagem: sudo mkdir /mysql-data
+
 6 - Realizar a montagem: sudo mount -t xfs /dev/sdb /mysql-data
+
 7 - Configurar a montagem automática no arquivo /etc/fstab: /dev/sdb /mysql-data xfs defaults 0 0
